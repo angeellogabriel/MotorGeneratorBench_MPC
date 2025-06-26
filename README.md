@@ -27,7 +27,7 @@ Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicad
 - Energia do Controle: 14470.55
 ## 📸 Gráfico do MPC
 <p align="center">
-  <img src="Gráfico_MPC.png" width="600">
+  <img src="Grafico_MPC.png" width="600">
 </p>
 
 ## 📸 Fotos da bancada
