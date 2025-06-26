@@ -33,10 +33,14 @@ Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicad
 ## 📸 Fotos da bancada
 
 <p align="center">
-  <img src="images/bancada_real.jpg" width="500">
+  <img src="Bancada.jpeg" width="500">
 </p>
-
-
+<p align="center">
+  <img src="Bancada 1.jpeg" width="500">
+</p>
+<p align="center">
+  <img src="Bancada 2.jpeg" width="500">
+</p>
 ## 👨‍🔧 Autor
 
 Projeto desenvolvido por mim durante experimentos com controle em tempo real.
