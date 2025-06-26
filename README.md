@@ -1,11 +1,10 @@
 # 🎯 Controle Preditivo em Tempo Real - Bancada Motor-Gerador
 
-Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicado a uma bancada motor-gerador real, com o objetivo de manter a resposta do sistema próxima de um setpoint mesmo em presença de perturbações físicas externas.
+Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicado a uma bancada motor-gerador real de 7V, com o objetivo de manter a resposta do sistema próxima de setpoints mesmo em presença de perturbações físicas externas.
 
 ## ⚙️ Tecnologias e Ferramentas
 
 - Python 3
-- OpenCV (para gráfico em tempo real)
 - `cvxpy` para otimização no MPC
 - `pyserial` para comunicação com a bancada
 - Notebook com Arduino/driver PWM
@@ -26,9 +25,9 @@ Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicad
 - ISE: 880.14
 - ITAE: 3188.29
 - Energia do Controle: 14470.55
-
+## 📸 Gráfico do MPC
 <p align="center">
-  <img src="images/grafico_mpc.png" width="600">
+  <img src="![WhatsApp Image 2025-06-26 at 15 17 19](https://github.com/user-attachments/assets/678bc8e1-9534-4e29-a8d9-d2708fe4e779)" width="600">
 </p>
 
 ## 📸 Fotos da bancada
@@ -37,19 +36,7 @@ Este projeto implementa um controlador preditivo baseado em modelo (MPC) aplicad
   <img src="images/bancada_real.jpg" width="500">
 </p>
 
-## 📂 Organização do Código
-
-- `modelo_identificado.py`: identificação do modelo via PRBS
-- `mpc_controle.py`: implementação do MPC com setpoint variável e restrições
-- `salvar_csv.py`: coleta e exportação dos dados
-- `dados/`: dados de entrada/saída
-- `resultados/`: métricas de desempenho
 
 ## 👨‍🔧 Autor
 
-Projeto desenvolvido por [Seu Nome] durante experimentos com controle em tempo real.
-
-## 📎 Contato
-
-- [LinkedIn](https://linkedin.com/in/seuusuario)
-- [GitHub](https://github.com/seuusuario)
+Projeto desenvolvido por mim durante experimentos com controle em tempo real.
